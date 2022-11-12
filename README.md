@@ -15,12 +15,14 @@ Some files for real time face detection and recognition. Seperate facial analysi
 To run the face detection and recognition, you have to import `App` from `recognition.py`. There are some different models and backends available for face recognition, choose the one that fits the best (for me, SFace was the fastest but sometimes a little off):
 
 > Models: `VGG-Face`, `Facenet`, `Facenet512`, `OpenFace`, `DeepFace`, `DeepID`, `ArcFace`, `Dlib`, `SFace`
+
 > Backends: `opencv`, `ssd`, `dlib`, `mtcnn`, `retinaface`, `mediapipe`
 
 You can change these parameters in line 134-138. When running a model or backend for the first time it will download some files.
 
 ### Database
 Here is how the dataset should look like:
+
 <img src="/example images/dataset.png" alt="Employee data" title="Employee Data title">
 
 When the code is run, deepface will create a file in /data/imgs to represent the images in this directory. Delete it whenever you add a new face, so that deepface can recreate this file.
