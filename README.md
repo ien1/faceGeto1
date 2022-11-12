@@ -39,3 +39,6 @@ Here is how the dataset should look like:
 
 When the code is run, deepface will create a file in /data/imgs to represent the images in this directory. Delete it whenever you add a new face, so that deepface can recreate this file.
 The file /data/analyzed_faces/face.jpg will be generated when the face analysis will be run, so you don't have to add it manually.
+
+## Sending from RPi
+To send the webcam output from a Raspberry Pi to your computer, you have to put the `streamer.py` file on you RPi, install `vidgear` and put the IP address of you computer in it. 
