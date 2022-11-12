@@ -1,5 +1,5 @@
 # faceGeto1
-Some files for real time face detection and recognition. Seperate facial analysis including facial landmark detection, emotion estimation, age estimation and gender estimation. Addtional race estimation can be implemented using deepface.
+Some files for REAL TIME face detection and recognition. Seperate facial analysis including facial landmark detection, emotion estimation, age estimation and gender estimation. Addtional race estimation can be implemented using deepface.
 
 ### Requirements
   - opencv-python
