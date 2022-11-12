@@ -28,12 +28,14 @@ Also, the smaller the image, the faster it is able to detect faces. On a scale o
 ![](https://github.com/ien1/faceGeto1/blob/main/example%20images/out1.gif)
 
 ## Faceial Analysis
-When running a facial analysis, you have to pass the data read from an image by opencv to the class. Facial analysis can will take about 5 seconds until the results will be displayed. Colors can be changed when there is a `#COLOR` behind a line. If you don't want to sharpen and brighten the image, comment out line 53 and 54.
+When running a facial analysis, you have to pass the data read from an image by opencv to the class. Facial analysis can will take about 5 seconds until the results will be displayed. Colors can be changed when there is a `#COLOR` behind a line. If you don't want to sharpen and brighten the image, comment out line 53 and 54. Here is an example output:
+
+![](https://github.com/ien1/faceGeto1/blob/main/example%20images/analyze.png)
 
 ### Database
 Here is how the dataset should look like:
 
-<img src="/example images/dataset.png" alt="Dataset Example" title="Dataset Example">
+![](https://github.com/ien1/faceGeto1/blob/main/example%20images/dataset.png)
 
 When the code is run, deepface will create a file in /data/imgs to represent the images in this directory. Delete it whenever you add a new face, so that deepface can recreate this file.
 The file /data/analyzed_faces/face.jpg will be generated when the face analysis will be run, so you don't have to add it manually.
