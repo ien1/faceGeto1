@@ -23,7 +23,7 @@ You can change these parameters in line 134-138. When running a model or backend
 
 `n = tqdm(range(1, 20), param=1, param2=2)` -> `n = range(1, 20)`
 
-Also, the smaller the image, the faster it is able to detect faces. On a scale of 500x250 it has a refreshrate of around 90 to 100 FPS:
+Also, the smaller the image, the faster it is able to detect faces. On a scale of 500x250 it has a refreshrate of around 80 to 100 FPS:
 
 ![](https://github.com/ien1/faceGeto1/blob/main/example%20images/out1.gif)
 
